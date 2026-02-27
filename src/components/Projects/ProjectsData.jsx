@@ -9,7 +9,8 @@ const projectsData = [
   {
     title: "Hotel Booking React",
     image: img1,
-    viewLink: "",
+    viewLink: "https://hotel-booking-react-six.vercel.app/",
+
     codeLink: "https://github.com/shameer125/Hotel_Booking",
   },
   {
