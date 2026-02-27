@@ -30,7 +30,8 @@ const projectsData = [
   {
     title: "JavaScript project",
     image: img4,
-    viewLink: "",
+    viewLink: "https://ecommerce-project-in-js.vercel.app",
+
     codeLink: "https://github.com/shameer125/ecommerce_project",
   },
   {
