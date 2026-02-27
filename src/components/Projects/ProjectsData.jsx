@@ -9,21 +9,21 @@ const projectsData = [
   {
     title: "Hotel Booking React",
     image: img1,
-    viewLink: "https://hotel-booking-react-six.vercel.app/",
+    viewLink: "https://hotel-booking-brown-kappa.vercel.app",
 
     codeLink: "https://github.com/shameer125/Hotel_Booking",
   },
   {
     title: "Shoping Website",
     image: img2,
-    viewLink: "https://react-commerce-peach.vercel.app/",
-    
+    viewLink: "https://react-commerce-peach.vercel.app",
+
     codeLink: "https://github.com/shameer125/ReactCommerce",
   },
   {
     title: "Ecommerce website",
     image: img3,
-    viewLink: "https://cara-js-olive.vercel.app/",
+    viewLink: "https://cara-js-olive.vercel.app",
 
     codeLink: "https://github.com/shameer125/CaraJS",
   },
@@ -37,14 +37,14 @@ const projectsData = [
   {
     title: "Modern React Project",
     image: img5,
-    viewLink: "https://modern-project-in-react.vercel.app/",
+    viewLink: "https://modern-project-in-react.vercel.app",
 
     codeLink: "https://github.com/shameer125/modern_project_inReact",
   },
   {
     title: "API Javascript mini project",
     image: img6,
-    viewLink: "https://api-javascript-mini-project.vercel.app/",
+    viewLink: "https://javascript-hackathon-one.vercel.app",
 
     codeLink: "https://github.com/shameer125/Javascript_hackathon",
   },
