@@ -1,0 +1,21 @@
+{
+  "short_name": "Shameer Ali",
+  "name": "Shameer Ali — Portfolio",
+  "icons": [
+    {
+      "src": "assets/images/shameer-avatar.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/logo-light.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#040c16",
+  "background_color": "#040c16"
+}

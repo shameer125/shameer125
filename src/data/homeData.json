@@ -1,0 +1,196 @@
+{
+  "hero": {
+    "imgUrl": "/assets/images/shameer-banner.png",
+    "name": "Shameer Ali",
+    "heading": "Hi! I'm Shameer Ali",
+    "typingText": [
+      "Frontend Developer",
+      1500,
+      "React Enthusiast",
+      1500,
+      "MERN Stack Developer",
+      1500
+    ],
+    "description": "Student at Agriculture University Peshawar, passionate frontend developer. Currently learning Next.js, Node.js, and MongoDB on the path to becoming a full stack developer. Ask me about HTML, CSS, JavaScript, and React — I love building projects and learning new technologies.",
+    "btnText": "Get in touch",
+    "btnUrl": "contactus"
+  },
+  "socialBtns": [
+    {
+      "icon": "fa-brands:github",
+      "iconBgClass": "github",
+      "href": "https://github.com/shameer125"
+    },
+    {
+      "icon": "mdi:web",
+      "iconBgClass": "portfolio-site",
+      "href": "https://shameer125.vercel.app"
+    }
+  ],
+  "about": {
+    "imgSrc": "/assets/images/shameer-avatar.png",
+    "miniTitle": "About me",
+    "title": "GOAL: BECOME A <span>FULL STACK DEVELOPER</span>",
+    "description": "I am a student at Agriculture University Peshawar and a passionate frontend developer. I care about clean UI, React, and the MERN ecosystem. I'm sharpening my skills with Next.js, Node.js, and MongoDB. Ask me about HTML, CSS, JavaScript, and React — and check out my featured projects from ecommerce to booking systems.",
+    "funfacts": [
+      { "title": "Featured projects", "number": 3 },
+      { "title": "Stack focus areas", "number": 4 },
+      { "title": "Drive / commitment", "number": 100 }
+    ]
+  },
+  "projects": {
+    "sectionHeading": {
+      "miniTitle": "Featured work",
+      "title": "PROJECTS I'M PROUD <span>OF</span>"
+    },
+    "allProjects": [
+      {
+        "thumbUrl": "/assets/images/shameer-banner.png",
+        "title": "ShopSphere Ecommerce",
+        "subTitle": "React · Cart · Responsive",
+        "details": {
+          "title": "ShopSphere Ecommerce (React)",
+          "description": "A full shopping experience with product listing, a shopping cart, responsive layouts, and cart data persisted with local storage.<br><br>Highlights: product listing, shopping cart system, responsive design, local storage cart functionality.",
+          "type": "Web app",
+          "langages": "HTML, CSS, JavaScript, React",
+          "platform": "React SPA",
+          "country": "Pakistan",
+          "url": "https://github.com/shameer125"
+        }
+      },
+      {
+        "thumbUrl": "/assets/images/brand-1.svg",
+        "title": "Personal Portfolio Website",
+        "subTitle": "Modern UI · Responsive",
+        "details": {
+          "title": "Personal Portfolio Website",
+          "description": "Portfolio site showcasing projects and personality with a modern UI, full responsiveness, and a dedicated contact section.<br><br>Highlights: modern UI, fully responsive, project showcase, contact section.",
+          "type": "Website",
+          "langages": "HTML, CSS, JavaScript, React",
+          "platform": "React / Vite",
+          "country": "Pakistan",
+          "url": "https://shameer125.vercel.app"
+        }
+      },
+      {
+        "thumbUrl": "/assets/images/effect-3.svg",
+        "title": "Hotel Booking System",
+        "subTitle": "Dashboard · Bookings",
+        "details": {
+          "title": "Hotel Booking Management System",
+          "description": "Booking-focused app with room flows, an admin area, and customer-facing booking screens.<br><br>Highlights: room booking system, admin dashboard, customer booking interface, booking management.",
+          "type": "Web app",
+          "langages": "JavaScript, React",
+          "platform": "MERN-style app",
+          "country": "Pakistan",
+          "url": "https://github.com/shameer125"
+        }
+      }
+    ]
+  },
+  "service": {
+    "sectionHeading": {
+      "miniTitle": "Tech stack & services",
+      "title": "WHAT I <span>BUILD</span> WITH"
+    },
+    "allService": [
+      {
+        "imgUrl": "/assets/images/effect-1.svg",
+        "title": "Frontend & React",
+        "subTitle": "Interfaces with HTML, CSS, JavaScript, and React — responsive, maintainable, and user-focused.",
+        "icon": "bi:code-slash",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/assets/images/effect-2.svg",
+        "title": "MERN direction",
+        "subTitle": "Growing with the MERN stack and modern tooling as I move toward full stack development.",
+        "icon": "bi:layers",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/assets/images/effect-3.svg",
+        "title": "Next.js · Node · MongoDB",
+        "subTitle": "Currently deepening skills in Next.js, Node.js, and MongoDB for full stack projects.",
+        "icon": "bi:database",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/assets/images/effect-4.svg",
+        "title": "Responsive UI",
+        "subTitle": "Layouts that work across devices, with attention to performance and accessibility.",
+        "icon": "bi:phone",
+        "ratings": 5
+      }
+    ]
+  },
+  "experience": {
+    "sectionHeading": {
+      "miniTitle": "Background",
+      "title": "STUDY & <span>FOCUS</span>"
+    },
+    "allExperience": [
+      {
+        "designation": "Student · Frontend developer",
+        "company": "Agriculture University Peshawar",
+        "duration": "ONGOING",
+        "jobType": "Student",
+        "companyTitle": "Computer science & self-driven projects",
+        "companyDescription": "Studying while building real projects — including ecommerce, portfolio sites, and booking systems. Passionate about the MERN stack and progressing toward full stack development with Next.js, Node.js, and MongoDB."
+      },
+      {
+        "designation": "Project-based developer",
+        "company": "Open source & GitHub",
+        "duration": "ACTIVE",
+        "jobType": "Projects",
+        "companyTitle": "github.com/shameer125",
+        "companyDescription": "Featured work includes ShopSphere (React ecommerce), a live portfolio on Vercel, and a hotel booking management system. If you like these projects, star the repositories and connect via GitHub or my portfolio site."
+      }
+    ]
+  },
+  "testimonial": {
+    "sectionHeading": {
+      "miniTitle": "Mindset",
+      "title": "LINES FROM MY <span>PROFILE</span>"
+    },
+    "allTestimonial": [
+      {
+        "reviewText": "Goal: become a full stack developer — Next.js, Node.js, and MongoDB are the next steps on that path.",
+        "avatarImg": "/assets/images/shameer-avatar.png",
+        "avatarName": "Shameer Ali",
+        "avatarCompany": "Career focus"
+      },
+      {
+        "reviewText": "I love building projects and learning new technologies. Ask me about HTML, CSS, JavaScript, and React.",
+        "avatarImg": "/assets/images/brand-1.svg",
+        "avatarName": "Shameer Ali",
+        "avatarCompany": "Fun fact"
+      },
+      {
+        "reviewText": "Frontend developer, React enthusiast, MERN stack developer — passionate about shipping usable, responsive interfaces.",
+        "avatarImg": "/assets/images/brand-2.svg",
+        "avatarName": "Shameer Ali",
+        "avatarCompany": "GitHub profile"
+      }
+    ]
+  },
+  "contact": {
+    "sectionHeading": {
+      "title": "Connect with me",
+      "subTitle": "Portfolio and GitHub are the best places to see my work. I'm open to collaborations and interesting frontend projects."
+    },
+    "contactImg": "/assets/images/shameer-avatar.png",
+    "contactInfo": [
+      {
+        "title": "GitHub",
+        "href": "https://github.com/shameer125",
+        "linkText": "github.com/shameer125"
+      },
+      {
+        "title": "Live portfolio",
+        "href": "https://shameer125.vercel.app",
+        "linkText": "shameer125.vercel.app"
+      }
+    ]
+  }
+}
