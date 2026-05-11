@@ -57,7 +57,9 @@ export default function Contact({ data }) {
             </motion.div>
           </div>
         </motion.div>
+        
       </div>
+
     </section>
   );
 }
