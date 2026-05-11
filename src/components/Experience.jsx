@@ -1,45 +1,71 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import SectionHeading from './SectionHeading';
+import { easeSmooth, viewportOnce } from '../lib/motionPresets';
 
 export default function Experience({ data }) {
   const { sectionHeading, allExperience } = data;
 
   return (
-    <section className="section gray-bg">
+    <section className="section gray-bg edu-section" id="education">
       <div className="container">
         <SectionHeading
+          variant="text-center"
           miniTitle={sectionHeading.miniTitle}
           title={sectionHeading.title}
         />
-        <div className="flex flex-col gap-y-4">
-          {allExperience?.map((item, index) => (
-            <div
-              key={index}
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay={index * 100}
-            >
-              <div className="ex-box">
-                <div className="grid grid-cols-1 gap-y-6 md:grid-cols-12 md:gap-y-6">
-                  <div className="md:col-span-4 lg:col-span-3">
-                    <div className="ex-left">
-                      <h4>{item.designation}</h4>
-                      <span>{item.company}</span>
-                      <p>{item.duration}</p>
-                      <label>{item.jobType}</label>
-                    </div>
+        <ol className="edu-timeline mx-auto max-w-3xl list-none px-0">
+          {allExperience?.map((item, index) => {
+            const isCurrent =
+              item.status?.toLowerCase() === 'pursuing' || item.highlight;
+            return (
+              <motion.li
+                key={item.program ?? index}
+                className="edu-timeline-item"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={viewportOnce}
+                transition={{
+                  duration: 0.48,
+                  ease: easeSmooth,
+                  delay: index * 0.09,
+                }}
+              >
+                <span className="edu-timeline-item__rail" aria-hidden />
+                <article
+                  className={`edu-card group${isCurrent ? ' edu-card--current' : ''}`}
+                >
+                  <div className="edu-card__toolbar">
+                    <span
+                      className={
+                        isCurrent
+                          ? 'edu-card__status edu-card__status--active'
+                          : 'edu-card__status edu-card__status--past'
+                      }
+                    >
+                      {item.status}
+                    </span>
+                    <span className="edu-card__period">{item.period}</span>
                   </div>
-                  <div className="md:col-span-8 lg:col-span-9">
-                    <div className="ex-right">
-                      <h5>{item.companyTitle}</h5>
-                      <p className="m-0">{item.companyDescription}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+                  <h3 className="edu-card__degree">{item.program}</h3>
+                  <p className="edu-card__where">
+                    <span className="edu-card__institution">
+                      {item.institution}
+                    </span>
+                    <span className="edu-card__sep" aria-hidden>
+                      {' '}
+                      |{' '}
+                    </span>
+                    <span className="edu-card__location">{item.location}</span>
+                  </p>
+                  {item.notes ? (
+                    <p className="edu-card__notes">{item.notes}</p>
+                  ) : null}
+                </article>
+              </motion.li>
+            );
+          })}
+        </ol>
       </div>
     </section>
   );

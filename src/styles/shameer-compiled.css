@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------
-Project: Jenna- ReactJs Portfolio Template
+Project: Shameer — React Portfolio Template
 Version: 1.0
 Primary use:laralink
 
@@ -743,6 +743,11 @@ a {
   border-radius: 10px;
   background: var(--px-white);
 }
+.project-box.project-box--slider {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
 .project-box .project-media {
   position: relative;
   overflow: hidden;
@@ -751,6 +756,10 @@ a {
 .project-box .project-media img {
   transition: ease all 0.35s;
   transform: scale(1);
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: block;
 }
 .project-box .project-media .gallery-link {
   position: absolute;
@@ -785,8 +794,11 @@ a {
 }
 .project-box .project-body {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   padding-top: 20px;
+  gap: 10px;
+  min-width: 0;
 }
 .project-box .project-body h5 {
   font-weight: 700;
@@ -795,31 +807,52 @@ a {
   margin: 0 0 5px;
 }
 .project-box .project-body .text {
-  flex: 0 0 calc(100% - 50px);
-  padding-right: 10px;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-right: 0;
 }
 .project-box .project-body .text span {
   font-size: 14px;
 }
-.project-box .project-body .link {
-  width: 50px;
+.project-box .project-body .project-actions {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
 }
-.project-box .project-body .link .p-link {
-  width: 45px;
-  height: 45px;
+.project-box .project-body .project-actions .p-link {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--px-theme);
   color: var(--px-white);
-  font-size: 20px;
-  border-radius: 50%;
-  border: 2px solid var(--px-black);
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
   cursor: pointer;
-  transition: all 0.4s ease;
+  transition: background 0.25s ease, transform 0.2s ease;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(var(--px-theme-rgb), 0.35);
 }
-.project-box .project-body .link .p-link:hover {
-  background: var(--px-black);
+.project-box .project-body .project-actions .p-link:hover {
+  background: #0678e9;
+  transform: translateY(-1px);
+}
+.project-box .project-body .project-actions .p-link--inactive {
+  opacity: 0.85;
+  cursor: default;
+  pointer-events: none;
+  box-shadow: none;
+  background: rgba(var(--px-theme-rgb), 0.35);
+  color: rgba(255, 255, 255, 0.95);
+}
+.project-box .project-body .project-actions .p-link--inactive:hover {
+  background: var(--px-theme);
+  transform: none;
 }
 
 /* ----------------------

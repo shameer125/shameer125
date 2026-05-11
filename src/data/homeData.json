@@ -1,17 +1,16 @@
 {
   "hero": {
-    "imgUrl": "/assets/images/shameer-banner.png",
-    "name": "Shameer Ali",
+    "imgUrl": "/assets/images/profile_pic2.png",
     "heading": "Hi! I'm Shameer Ali",
     "typingText": [
+      "MERN Stack Developer",
+      1500,
       "Frontend Developer",
       1500,
-      "React Enthusiast",
-      1500,
-      "MERN Stack Developer",
+      "React & Node.js Developer",
       1500
     ],
-    "description": "Student at Agriculture University Peshawar, passionate frontend developer. Currently learning Next.js, Node.js, and MongoDB on the path to becoming a full stack developer. Ask me about HTML, CSS, JavaScript, and React — I love building projects and learning new technologies.",
+    "description": "BS Computer Science at the University of Agriculture, Peshawar. I build end-to-end web apps — React UIs backed by Express APIs and MongoDB.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
@@ -24,14 +23,19 @@
     {
       "icon": "mdi:web",
       "iconBgClass": "portfolio-site",
-      "href": "https://shameer125.vercel.app"
+      "href": "https://yourportfolio.example.com"
+    },
+    {
+      "icon": "fa-brands:linkedin",
+      "iconBgClass": "linkedin-social",
+      "href": "https://www.linkedin.com/in/shameer-ali-8420a6322"
     }
   ],
   "about": {
     "imgSrc": "/assets/images/shameer-avatar.png",
     "miniTitle": "About me",
-    "title": "GOAL: BECOME A <span>FULL STACK DEVELOPER</span>",
-    "description": "I am a student at Agriculture University Peshawar and a passionate frontend developer. I care about clean UI, React, and the MERN ecosystem. I'm sharpening my skills with Next.js, Node.js, and MongoDB. Ask me about HTML, CSS, JavaScript, and React — and check out my featured projects from ecommerce to booking systems.",
+    "title": "MERN STACK <span>DEVELOPER</span>",
+    "description": "I build end-to-end with the MERN stack: schemas and queries in MongoDB, routes and business logic in Express and Node, and fast, maintainable UIs in React. I'm also completing my BS in Computer Science at UAP. My projects span ecommerce flows, dashboards, and booking systems — the same stack from database to deploy. GitHub and my live portfolio are the best place to see the work.",
     "funfacts": [
       { "title": "Featured projects", "number": 3 },
       { "title": "Stack focus areas", "number": 4 },
@@ -45,16 +49,19 @@
     },
     "allProjects": [
       {
-        "thumbUrl": "/assets/images/shameer-banner.png",
+        "thumbUrl": "/assets/images/Project-img1.png",
         "title": "ShopSphere Ecommerce",
         "subTitle": "React · Cart · Responsive",
+        "liveDemoUrl": "https://minis-ecom-mern-stack-fxdr.vercel.app/",
+        "liveDemoLinkLabel": "MINIS — Fashion Store",
         "details": {
           "title": "ShopSphere Ecommerce (React)",
-          "description": "A full shopping experience with product listing, a shopping cart, responsive layouts, and cart data persisted with local storage.<br><br>Highlights: product listing, shopping cart system, responsive design, local storage cart functionality.",
+          "description": "A focused React ecommerce flow: catalogue, cart state, responsive layout, and cart persistence (e.g. local storage) with the same component and data patterns I use when plugging into Express and MongoDB for a full MERN deployment.<br><br>Emphasis on predictable structure and UI that stays maintainable as backends grow.",
           "type": "Web app",
           "langages": "HTML, CSS, JavaScript, React",
           "platform": "React SPA",
           "country": "Pakistan",
+          "liveUrl": "https://minis-ecom-mern-stack-fxdr.vercel.app/",
           "url": "https://github.com/shameer125"
         }
       },
@@ -62,27 +69,33 @@
         "thumbUrl": "/assets/images/brand-1.svg",
         "title": "Personal Portfolio Website",
         "subTitle": "Modern UI · Responsive",
+        "liveDemoUrl": "https://yourportfolio.example.com",
+        "liveDemoLinkLabel": "yourportfolio.example.com",
         "details": {
           "title": "Personal Portfolio Website",
-          "description": "Portfolio site showcasing projects and personality with a modern UI, full responsiveness, and a dedicated contact section.<br><br>Highlights: modern UI, fully responsive, project showcase, contact section.",
+          "description": "My public home for projects, education, and contact — built with Vite and React for speed and clarity. It reflects how I position myself: MERN stack developer first, with my degree and story in one place.<br><br>Readable layout, smooth in-page navigation, and content I can extend as I ship more full-stack work.",
           "type": "Website",
           "langages": "HTML, CSS, JavaScript, React",
           "platform": "React / Vite",
           "country": "Pakistan",
-          "url": "https://shameer125.vercel.app"
+          "liveUrl": "https://yourportfolio.example.com",
+          "url": "https://yourportfolio.example.com"
         }
       },
       {
         "thumbUrl": "/assets/images/effect-3.svg",
         "title": "Hotel Booking System",
         "subTitle": "Dashboard · Bookings",
+        "liveDemoUrl": "https://github.com/shameer125",
+        "liveDemoLinkLabel": "GitHub (source code)",
         "details": {
           "title": "Hotel Booking Management System",
-          "description": "Booking-focused app with room flows, an admin area, and customer-facing booking screens.<br><br>Highlights: room booking system, admin dashboard, customer booking interface, booking management.",
+          "description": "A full MERN application: customer and admin experiences in React, REST APIs in Express and Node, and booking and room data modelled in MongoDB — multi-step flows, dashboards, and persistence end to end.<br><br>Demonstrates how I wire auth-friendly patterns and ship a coherent UI on top of real backend logic.",
           "type": "Web app",
-          "langages": "JavaScript, React",
-          "platform": "MERN-style app",
+          "langages": "MongoDB, Express, React, Node.js, JavaScript",
+          "platform": "MERN stack",
           "country": "Pakistan",
+          "liveUrl": "https://github.com/shameer125",
           "url": "https://github.com/shameer125"
         }
       }
@@ -90,106 +103,125 @@
   },
   "service": {
     "sectionHeading": {
-      "miniTitle": "Tech stack & services",
-      "title": "WHAT I <span>BUILD</span> WITH"
+      "miniTitle": "Capabilities",
+      "title": "WHAT I <span>BUILD</span>"
     },
     "allService": [
       {
-        "imgUrl": "/assets/images/effect-1.svg",
-        "title": "Frontend & React",
-        "subTitle": "Interfaces with HTML, CSS, JavaScript, and React — responsive, maintainable, and user-focused.",
+        "title": "Product-grade frontends",
+        "subTitle": "I ship SPAs with React whenever I want something fast and expressive: reusable components, readable structure, and layouts that behave on phones and desktops.",
         "icon": "bi:code-slash",
-        "ratings": 5
+        "tags": ["React", "JavaScript", "HTML & CSS", "Responsive layout"]
       },
       {
-        "imgUrl": "/assets/images/effect-2.svg",
-        "title": "MERN direction",
-        "subTitle": "Growing with the MERN stack and modern tooling as I move toward full stack development.",
+        "title": "MERN stack builds",
+        "subTitle": "I've completed the full loop: MongoDB for data modelling and queries, Express and Node for APIs and middleware, and React for interfaces that consume those endpoints cleanly — not mock APIs or UI-only demos.",
         "icon": "bi:layers",
-        "ratings": 5
+        "tags": ["MongoDB", "Express.js", "React", "Node.js"]
       },
       {
-        "imgUrl": "/assets/images/effect-3.svg",
-        "title": "Next.js · Node · MongoDB",
-        "subTitle": "Currently deepening skills in Next.js, Node.js, and MongoDB for full stack projects.",
-        "icon": "bi:database",
-        "ratings": 5
+        "title": "Modern app foundations",
+        "subTitle": "I care about how a repo is set up: routing, env config, and tooling (Vite today, Next.js when the project calls for it) so the next feature doesn't turn into a rewrite.",
+        "icon": "bi:cpu",
+        "tags": ["Next.js", "Vite", "Git & collaboration", "Performance basics"]
       },
       {
-        "imgUrl": "/assets/images/effect-4.svg",
-        "title": "Responsive UI",
-        "subTitle": "Layouts that work across devices, with attention to performance and accessibility.",
-        "icon": "bi:phone",
-        "ratings": 5
+        "title": "UX details that ship",
+        "subTitle": "Small details matter — spacing, type scale, forms that don't fight the user — plus basic accessibility and sane loading/error states.",
+        "icon": "bi:brightness-high",
+        "tags": ["UI polish", "Forms & validation", "A11y awareness", "Design systems"]
       }
     ]
   },
   "experience": {
     "sectionHeading": {
-      "miniTitle": "Background",
+      "miniTitle": "Education",
       "title": "STUDY & <span>FOCUS</span>"
     },
     "allExperience": [
       {
-        "designation": "Student · Frontend developer",
-        "company": "Agriculture University Peshawar",
-        "duration": "ONGOING",
-        "jobType": "Student",
-        "companyTitle": "Computer science & self-driven projects",
-        "companyDescription": "Studying while building real projects — including ecommerce, portfolio sites, and booking systems. Passionate about the MERN stack and progressing toward full stack development with Next.js, Node.js, and MongoDB."
+        "program": "BS Computer Science",
+        "institution": "The University of Agriculture, Peshawar",
+        "location": "Pakistan",
+        "period": "2023 - 2027",
+        "status": "Pursuing",
+        "highlight": true,
+        "notes": "Coursework alongside production-style MERN projects — ecommerce-style apps, dashboards, booking systems — so what I ship in MongoDB, Express, and Node matches how I deliver React on the frontend."
       },
       {
-        "designation": "Project-based developer",
-        "company": "Open source & GitHub",
-        "duration": "ACTIVE",
-        "jobType": "Projects",
-        "companyTitle": "github.com/shameer125",
-        "companyDescription": "Featured work includes ShopSphere (React ecommerce), a live portfolio on Vercel, and a hotel booking management system. If you like these projects, star the repositories and connect via GitHub or my portfolio site."
+        "program": "F.Sc",
+        "institution": "Government Postgraduate College",
+        "location": "Kohat",
+        "period": "2021 - 2023",
+        "status": "Completed",
+        "highlight": false
       }
     ]
   },
-  "testimonial": {
+  "mernTech": {
     "sectionHeading": {
-      "miniTitle": "Mindset",
-      "title": "LINES FROM MY <span>PROFILE</span>"
+      "miniTitle": "Stack",
+      "title": "TECH I USE FOR <span>MERN</span>",
+      "intro": "The four pieces I reach for daily when building apps from MongoDB — Express — React — Node."
     },
-    "allTestimonial": [
+    "items": [
       {
-        "reviewText": "Goal: become a full stack developer — Next.js, Node.js, and MongoDB are the next steps on that path.",
-        "avatarImg": "/assets/images/shameer-avatar.png",
-        "avatarName": "Shameer Ali",
-        "avatarCompany": "Career focus"
+        "name": "MongoDB",
+        "role": "Database · documents & Atlas",
+        "img": "/assets/tech/mongodb.svg",
+        "invertLogo": false,
+        "blurb": "Schemas, indexes, aggregation, and sane document design so reads and writes stay predictable as apps grow."
       },
       {
-        "reviewText": "I love building projects and learning new technologies. Ask me about HTML, CSS, JavaScript, and React.",
-        "avatarImg": "/assets/images/brand-1.svg",
-        "avatarName": "Shameer Ali",
-        "avatarCompany": "Fun fact"
+        "name": "Express.js",
+        "role": "HTTP API layer",
+        "img": "/assets/tech/express.svg",
+        "invertLogo": true,
+        "blurb": "REST routes, middleware, validation, and auth-friendly patterns that sit between React and the database."
       },
       {
-        "reviewText": "Frontend developer, React enthusiast, MERN stack developer — passionate about shipping usable, responsive interfaces.",
-        "avatarImg": "/assets/images/brand-2.svg",
-        "avatarName": "Shameer Ali",
-        "avatarCompany": "GitHub profile"
+        "name": "React",
+        "role": "UI & SPA",
+        "img": "/assets/tech/react.svg",
+        "invertLogo": false,
+        "blurb": "Component-driven interfaces, hooks, routing, and state that map cleanly to API responses and loading states."
+      },
+      {
+        "name": "Node.js",
+        "role": "Runtime & server",
+        "img": "/assets/tech/nodejs.svg",
+        "invertLogo": false,
+        "blurb": "JavaScript on the server — env config, async I/O, and tooling that keeps dev and deploy straightforward."
       }
     ]
   },
   "contact": {
     "sectionHeading": {
       "title": "Connect with me",
-      "subTitle": "Portfolio and GitHub are the best places to see my work. I'm open to collaborations and interesting frontend projects."
+      "subTitle": "Email, LinkedIn, and the links below — or send a message with the form."
     },
-    "contactImg": "/assets/images/shameer-avatar.png",
     "contactInfo": [
+      {
+        "title": "Email",
+        "email": "alishameer251@gmail.com"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/shameer-ali-8420a6322",
+        "linkText": "linkedin.com/in/shameer-ali-8420a6322",
+        "external": true
+      },
       {
         "title": "GitHub",
         "href": "https://github.com/shameer125",
-        "linkText": "github.com/shameer125"
+        "linkText": "github.com/shameer125",
+        "external": true
       },
       {
         "title": "Live portfolio",
-        "href": "https://shameer125.vercel.app",
-        "linkText": "shameer125.vercel.app"
+        "href": "https://yourportfolio.example.com",
+        "linkText": "yourportfolio.example.com",
+        "external": true
       }
     ]
   }

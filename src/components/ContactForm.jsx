@@ -55,7 +55,8 @@ export default function ContactForm() {
             <input
               id="contact-name"
               name="name"
-              placeholder="Name *"
+              autoComplete="name"
+              placeholder="Your name *"
               className="form-control"
               type="text"
               value={formState.name}
@@ -72,7 +73,8 @@ export default function ContactForm() {
             <input
               id="contact-email"
               name="email"
-              placeholder="Email *"
+              autoComplete="email"
+              placeholder="Your email *"
               className="form-control"
               type="email"
               value={formState.email}
@@ -118,8 +120,9 @@ export default function ContactForm() {
         <div className="md:col-span-2">
           <div className="send">
             <button
-              className={`px-btn w-full ${loading ? 'disabled' : ''}`}
+              className="px-btn w-full"
               type="submit"
+              disabled={loading}
             >
               {loading ? 'Sending...' : 'Send Message'}
             </button>

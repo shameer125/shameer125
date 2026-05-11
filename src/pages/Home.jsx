@@ -1,5 +1,5 @@
 import Projects from '../components/Projects';
-import Testimonial from '../components/Testimonial';
+import MernTech from '../components/MernTech';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Service from '../components/Service';
@@ -15,7 +15,7 @@ export default function Home() {
     projects,
     service,
     experience,
-    testimonial,
+    mernTech,
     contact,
   } = homeData;
   return (
@@ -25,8 +25,8 @@ export default function Home() {
       <Projects data={projects} />
       <Service data={service} />
       <Experience data={experience} />
-      <Testimonial data={testimonial} />
-      <Contact data={contact} socialData={socialBtns} />
+      <MernTech data={mernTech} />
+      <Contact data={contact} />
     </>
   );
 }

@@ -1,39 +1,48 @@
 import { Icon } from '@iconify/react';
 import React from 'react';
+import { motion } from 'framer-motion';
 import SectionHeading from './SectionHeading';
-import Ratings from './Ratings';
+import { easeSmooth, viewportOnce } from '../lib/motionPresets';
 
 export default function Service({ data }) {
   const { sectionHeading, allService } = data;
   return (
-    <section className="section" id="services">
+    <section className="section build-section" id="services">
       <div className="container">
         <SectionHeading
+          variant="text-center"
           miniTitle={sectionHeading.miniTitle}
           title={sectionHeading.title}
         />
-        <div className="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto grid max-w-5xl gap-5 sm:grid-cols-2 lg:gap-6">
           {allService?.map((item, index) => (
-            <div key={index}>
-              <div
-                className="services-box"
-                style={{ backgroundImage: `url(${item.imgUrl})` }}
-                data-aos="fade-left"
-                data-aos-duration="1200"
-                data-aos-delay={index * 100}
-              >
-                <div className="services-body">
-                  <div className="icon">
-                    <Icon icon={item.icon} />
-                  </div>
-                  <h5>{item.title}</h5>
-                  <p>{item.subTitle}</p>
-                  <div className="rating-wrap">
-                    <Ratings ratings={item.ratings} />
-                  </div>
+            <motion.article
+              key={item.title}
+              className="build-card group"
+              initial={{ opacity: 0, y: 22 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={viewportOnce}
+              transition={{
+                duration: 0.48,
+                ease: easeSmooth,
+                delay: index * 0.07,
+              }}
+            >
+              <div className="build-card__top">
+                <div className="build-card__icon" aria-hidden>
+                  <Icon icon={item.icon} className="text-2xl" />
                 </div>
+                <h3 className="build-card__title">{item.title}</h3>
               </div>
-            </div>
+              <p className="build-card__desc">{item.subTitle}</p>
+              {item.tags?.length > 0 && (
+                <ul className="build-card__tags">
+                  {item.tags.map((tag) => (
+                    <li key={tag}>{tag}</li>
+                  ))}
+                </ul>
+              )}
+            </motion.article>
           ))}
         </div>
       </div>
