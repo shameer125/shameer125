@@ -104,7 +104,9 @@ export default function About({ data }) {
             </motion.div>
           </div>
         </div>
+        
       </div>
+
     </section>
   );
 }
