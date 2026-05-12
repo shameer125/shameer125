@@ -109,9 +109,13 @@ export default function Modal({ modalData }) {
                 ) : null}
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </div>
+      
     </div>
   );
 }
