@@ -11,79 +11,84 @@
 
 ---
 
-<h2 align="center">👨‍💻 About Me</h2>
+## 👨‍💻 About Me
 
-<p align="center">
-
-🎓 BS Computer Science Student at <b>Agriculture University Peshawar</b><br>
-💻 MERN Stack Developer (MongoDB, Express, React, Node.js)<br>
-⚡ Focused on Frontend + Full Stack Development<br>
-🌱 Learning Next.js, Advanced Backend & Data Science<br>
-🎯 Goal: Professional Software Engineer<br>
-💬 Ask me about React, JavaScript, APIs<br>
-🚀 Love building real-world scalable projects
-
-</p>
+- 🎓 BS Computer Science Student at **Agriculture University Peshawar**
+- 💻 Passionate **MERN Stack Developer (MongoDB, Express, React, Node.js)**
+- ⚡ Strong focus on **Frontend + Full Stack Web Development**
+- 🌱 Currently learning **Next.js, Advanced Backend Systems & Data Science**
+- 🎯 Goal: Become a **Professional Software Engineer**
+- 💬 Ask me about **React, JavaScript, APIs, Full Stack Development**
+- 🚀 Love building **real-world scalable projects**
 
 ---
 
-<h2 align="center">🚀 Tech Stack</h2>
+## 🚀 Tech Stack
 
-<h3 align="center">💻 Languages</h3>
-<p align="center">
+### 💻 Languages
+<p>
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,cpp,python"/>
 </p>
 
-<h3 align="center">⚛️ Frontend</h3>
-<p align="center">
+### ⚛️ Frontend
+<p>
 <img src="https://skillicons.dev/icons?i=react,nextjs,bootstrap,tailwind"/>
 </p>
 
-<h3 align="center">🛠 Backend</h3>
-<p align="center">
+### 🛠 Backend
+<p>
 <img src="https://skillicons.dev/icons?i=nodejs,express"/>
 </p>
 
-<h3 align="center">🗄 Database</h3>
-<p align="center">
+### 🗄 Database
+<p>
 <img src="https://skillicons.dev/icons?i=mongodb,mysql"/>
 </p>
 
-<h3 align="center">⚙️ Tools & Platforms</h3>
-<p align="center">
+### ⚙️ Tools & Platforms
+<p>
 <img src="https://skillicons.dev/icons?i=git,github,vscode,postman"/>
 </p>
 
 ---
 
-<h2 align="center">📊 GitHub Stats</h2>
+## 📊 GitHub Stats
 
 <p align="center">
+
 <img src="https://github-readme-stats.vercel.app/api?username=shameer125&show_icons=true&theme=tokyonight"/>
+
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=shameer125&theme=tokyonight"/>
+
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shameer125&layout=compact&theme=tokyonight"/>
-</p>
-
----
-
-<h2 align="center">🔥 Featured Projects</h2>
-
-<p align="center">
-
-<b>🛒 ShopSphere Ecommerce App</b><br>
-Full MERN ecommerce application with cart & product management<br><br>
-
-<b>🌐 Personal Portfolio Website</b><br>
-Modern UI, responsive design & project showcase<br><br>
-
-<b>🏨 Hotel Booking Management System</b><br>
-Complete booking system with admin dashboard
 
 </p>
 
 ---
 
-<h2 align="center">📈 GitHub Activity</h2>
+## 🔥 Featured Projects
+
+### 🛒 ShopSphere Ecommerce App
+- Full MERN stack ecommerce application
+- Product management & cart system
+- Local storage + dynamic UI
+- Responsive design
+
+### 🌐 Personal Portfolio Website
+- Modern UI/UX design
+- Fully responsive
+- Project showcase with animations
+- Contact integration
+
+### 🏨 Hotel Booking Management System
+- Complete booking system
+- Admin dashboard
+- Customer interface
+- Real-time booking management
+
+---
+
+## 📈 GitHub Activity
 
 <p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=shameer125&theme=react-dark"/>
@@ -91,7 +96,7 @@ Complete booking system with admin dashboard
 
 ---
 
-<h2 align="center">🌍 Connect With Me</h2>
+## 🌍 Connect With Me
 
 <p align="center">
 
