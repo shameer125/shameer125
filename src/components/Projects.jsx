@@ -165,7 +165,9 @@ export default function Projects({ data }) {
               )}
             </div>
           </div>
+          
         </div>
+
       )}
     </>
   );
