@@ -81,7 +81,10 @@ export default function Hero({ data, socialData }) {
             </motion.div>
           </div>
         </div>
+
       </div>
+      
     </section>
+
   );
 }
