@@ -66,7 +66,9 @@ export default function Experience({ data }) {
             );
           })}
         </ol>
+
       </div>
+      
     </section>
   );
 }
