@@ -57,14 +57,17 @@ export default function MernTech({ data }) {
                     height={72}
                   />
                 </div>
+
                 <h3 className="mern-tech-card__name">{item.name}</h3>
                 <p className="mern-tech-card__role">{item.role}</p>
                 <p className="mern-tech-card__blurb">{item.blurb}</p>
               </article>
+
             </motion.li>
           ))}
         </ul>
       </div>
+      
     </section>
   );
 }
