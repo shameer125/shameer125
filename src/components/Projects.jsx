@@ -69,6 +69,7 @@ export default function Projects({ data }) {
           <SectionHeading
             miniTitle={sectionHeading.miniTitle}
             title={sectionHeading.title}
+            variant="text-center"
           />
           <motion.div
             className="full-width"
