@@ -84,7 +84,9 @@ export default function ContactInfo({ contactInfoData }) {
                 download={item.download}
               />
             </div>
+
           );
+          
         }
         return null;
       })}
