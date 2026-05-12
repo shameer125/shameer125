@@ -34,7 +34,7 @@ export default function Header() {
             />
           </Link>
         </div>
-        <ul className="main-menu">
+        <ul className={`main-menu whitespace-nowrap min-w-fit !flex transition-all duration-300 ease-in-out lg:!opacity-100 lg:!translate-y-0 lg:!pointer-events-auto ${mobileToggle ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-4 pointer-events-none'}`}>
           {navItems.map(({ label, to }) => (
             <li key={to}>
               <ScrollLink
@@ -58,9 +58,9 @@ export default function Header() {
             offset={-80}
             duration={500}
             onClick={() => setMobileToggle(false)}
-            className="px-btn hidden lg:inline-flex"
+            className="px-btn !hidden lg:!inline-flex whitespace-nowrap min-w-fit"
           >
-            Lets' Talk
+            Let's Talk
           </ScrollLink>
           <button
             type="button"

@@ -30,7 +30,7 @@ export default function MernTech({ data }) {
           ) : null}
         </div>
 
-        <ul className="mern-tech__grid">
+        <ul className="mern-tech__grid lg:!grid-cols-2">
           {items?.map((item, index) => (
             <motion.li
               key={item.name}

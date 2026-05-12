@@ -25,10 +25,23 @@ export default function Projects({ data }) {
     autoplay: false,
     autoplaySpeed: 4000,
     speed: 1000,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   const closeModal = () => setModal(false);
@@ -68,7 +81,7 @@ export default function Projects({ data }) {
               {allProjects?.map((item, index) => {
                 const demoHref = resolveLiveDemoHref(item);
                 return (
-                  <div key={item.title ?? index} style={{ width: '416px' }}>
+                  <div key={item.title ?? index} className="px-3">
                     <div className="project-box project-box--slider">
                       <div className="project-media">
                         <img
