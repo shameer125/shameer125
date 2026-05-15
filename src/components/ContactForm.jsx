@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { toast } from "react-toastify";
 
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
@@ -40,12 +41,12 @@ const onSubmit = async (event) => {
         subject: "",
         message: "",
       });
-      alert("Message sent successfully!");
+      toast.success("Message sent successfully!");
     } else {
-      alert(data.error || "Something went wrong");
+      toast.error(data.error || "Something went wrong");
     }
   } catch (error) {
-    alert("Failed to send message");
+    toast.error("Failed to send message");
   } finally {
     setLoading(false);
   }
