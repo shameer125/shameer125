@@ -50,55 +50,85 @@
     "allProjects": [
       {
         "thumbUrl": "/assets/images/Project-img1.png",
-        "title": "ShopSphere Ecommerce",
-        "subTitle": "React · Cart · Responsive",
+        "title": "MINIS E-Commerce",
+        "subTitle": "Full Stack MERN Application",
         "liveDemoUrl": "https://minis-ecom-mern-stack-fxdr.vercel.app/",
         "liveDemoLinkLabel": "MINIS — Fashion Store",
         "details": {
-          "title": "ShopSphere Ecommerce (React)",
-          "description": "A focused React ecommerce flow: catalogue, cart state, responsive layout, and cart persistence (e.g. local storage) with the same component and data patterns I use when plugging into Express and MongoDB for a full MERN deployment.<br><br>Emphasis on predictable structure and UI that stays maintainable as backends grow.",
-          "type": "Web app",
-          "langages": "HTML, CSS, JavaScript, React",
-          "platform": "React SPA",
-          "country": "Pakistan",
+          "title": "MINIS E-Commerce",
+          "description": "A modern full-stack e-commerce application built with the MERN stack. It includes user authentication, product browsing, cart & wishlist functionality, secure checkout, and a powerful admin dashboard for managing products, users, and orders. Designed with a scalable architecture and real-world e-commerce features.",
+          "type": "Full Stack Web Application (E-Commerce Platform)",
+          "langages": "JavaScript (ES6+), HTML5, CSS3",
+          "platform": "MERN Stack (MongoDB, Express.js, React.js, Node.js)",
           "liveUrl": "https://minis-ecom-mern-stack-fxdr.vercel.app/",
-          "url": "https://github.com/shameer125"
+          "url": "https://github.com/shameer125/Minis-Ecom-MernStack"
         }
       },
       {
-        "thumbUrl": "/assets/images/brand-1.svg",
-        "title": "Personal Portfolio Website",
-        "subTitle": "Modern UI · Responsive",
-        "liveDemoUrl": "https://yourportfolio.example.com",
-        "liveDemoLinkLabel": "yourportfolio.example.com",
+        "thumbUrl": "/assets/images/project-img2.png",
+        "title": "LuxeShop",
+        "subTitle": "LuxeShop — Premium E-Commerce Experience",
+        "liveDemoUrl": "https://luxe-shop-qweu.vercel.app/",
+        "liveDemoLinkLabel": "LuxeShop E-Commerce",
         "details": {
-          "title": "Personal Portfolio Website",
-          "description": "My public home for projects, education, and contact — built with Vite and React for speed and clarity. It reflects how I position myself: MERN stack developer first, with my degree and story in one place.<br><br>Readable layout, smooth in-page navigation, and content I can extend as I ship more full-stack work.",
-          "type": "Website",
-          "langages": "HTML, CSS, JavaScript, React",
-          "platform": "React / Vite",
-          "country": "Pakistan",
-          "liveUrl": "https://yourportfolio.example.com",
-          "url": "https://yourportfolio.example.com"
+          "title": "LuxeShop — Premium E-Commerce Experience",
+          "description": "LuxeShop is a full-featured e-commerce web application combining a visually rich shopping experience with an advanced admin dashboard for real-time analytics and business management.",
+          "type": "Web Application (E-Commerce Platform)",
+          "langages": "HTML, CSS, JavaScript, React.js",
+          "platform": "Modern Web Stack (React + Vite)",
+          "liveUrl": "https://luxe-shop-qweu.vercel.app/",
+          "url": "https://github.com/shameer125/luxeShop"
         }
       },
       {
-        "thumbUrl": "/assets/images/effect-3.svg",
-        "title": "Hotel Booking System",
-        "subTitle": "Dashboard · Bookings",
-        "liveDemoUrl": "https://github.com/shameer125",
-        "liveDemoLinkLabel": "GitHub (source code)",
+        "thumbUrl": "/assets/images/project-img3.png",
+        "title": "Parador Hotel Booking",
+        "subTitle": "React Hotel Booking App · Admin + Guest System",
+        "liveDemoUrl": "https://hotel-booking-platform-ivory.vercel.app/",
+        "liveDemoLinkLabel": "Parador Hotel Booking",
         "details": {
-          "title": "Hotel Booking Management System",
-          "description": "A full MERN application: customer and admin experiences in React, REST APIs in Express and Node, and booking and room data modelled in MongoDB — multi-step flows, dashboards, and persistence end to end.<br><br>Demonstrates how I wire auth-friendly patterns and ship a coherent UI on top of real backend logic.",
-          "type": "Web app",
-          "langages": "MongoDB, Express, React, Node.js, JavaScript",
-          "platform": "MERN stack",
-          "country": "Pakistan",
-          "liveUrl": "https://github.com/shameer125",
-          "url": "https://github.com/shameer125"
+          "title": "Parador — Hotel Booking Frontend",
+          "description": "A modern single-page hotel booking application built with React, featuring room browsing, cart management, and a complete checkout flow. It includes role-based authentication with guest and admin access, persistent state using Redux Toolkit with redux-persist, and a full admin dashboard for managing rooms and bookings — all running without a backend using localStorage.",
+          "type": "Frontend Web Application (Hotel Booking Platform)",
+          "langages": "JavaScript (ES6+), JSX, HTML5, CSS3 (SCSS)",
+          "platform": "React 19 (Vite), Redux Toolkit, React Router 7",
+          "liveUrl": "https://hotel-booking-platform-ivory.vercel.app/",
+          "url": "https://github.com/shameer125/Hotel-Booking-Platform"
+        }
+      },
+        {
+        "thumbUrl": "/assets/images/project-img4.png",
+        "title": "Doctor Appointment",
+        "subTitle": "Doctor Booking App · Appointment Scheduling",
+        "liveDemoUrl": "https://doctor-appointment-tan-nu.vercel.app/",
+        "liveDemoLinkLabel": "Doctor Appointment App",
+        "details": {
+          "title": "Hope Medical — Doctor Appointment App",
+          "description": "A modern doctor appointment booking web application built with React and Vite, featuring a clean UI, responsive design, and smooth user experience. Users can browse doctors by specialty, search listings, and book appointments with time slots using a simple authentication flow.",
+          "type": "Frontend Web Application (Healthcare / Appointment Booking System)",
+          "langages": "JavaScript (ES6+), JSX, HTML5, CSS3",
+          "platform": "React 18 (Vite), React Router, Tailwind CSS",
+          "liveUrl": "https://doctor-appointment-tan-nu.vercel.app/",
+          "url": "https://github.com/shameer125/doctor-appointment"
+        }
+      },
+       {
+        "thumbUrl": "/assets/images/project-img5.png",
+        "title": "DashHub — Business Dashboard Application",
+        "subTitle": "Admin Dashboard · Analytics · Role-Based Access",
+        "liveDemoUrl": "https://business-dashboard-beta.vercel.app",
+        "liveDemoLinkLabel": "Business Dashboard Application",
+        "details": {
+          "title": "DashHub — Business Dashboard Application",
+          "description": "A modern, high-performance business dashboard built with React 19 and TypeScript, featuring role-based authentication, advanced navigation system, interactive data visualizations, and powerful data tables. Designed as a premium UI/UX showcase with real-world admin dashboard functionality.",
+          "type": "Frontend Web Application (Admin Dashboard / SaaS UI)",
+          "langages": "TypeScript, JavaScript (ES6+), HTML5, CSS3",
+          "platform": "React 19 (Vite), Zustand, React Router 7, TanStack Query",
+          "liveUrl": "https://business-dashboard-beta.vercel.app",
+          "url": "https://github.com/shameer125/Business_Dashboard"
         }
       }
+
     ]
   },
   "service": {

@@ -21,11 +21,11 @@ export default function Projects({ data }) {
   const settings = {
     dots: true,
     arrows: false,
-    infinite: true,
+    infinite: false,
     autoplay: false,
     autoplaySpeed: 4000,
     speed: 1000,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
