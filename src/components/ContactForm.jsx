@@ -17,32 +17,39 @@ export default function ContactForm() {
     }));
   };
 
-  const onSubmit = async event => {
-    event.preventDefault();
-    setLoading(true);
-    try {
-      const submitted = new FormData(event.target);
-      submitted.append('access_key', '6d7bc3fc-6190-43c5-8298-89ac5ef7494f');
+const onSubmit = async (event) => {
+  event.preventDefault();
+  setLoading(true);
 
-      const object = Object.fromEntries(submitted);
-      const json = JSON.stringify(object);
+  try {
+    const res = await fetch("https://formspree.io/f/mvzljlrl", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(formState),
+    });
 
-      const res = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
-        },
-        body: json,
-      }).then(r => r.json());
+    const data = await res.json();
 
-      if (res.success) {
-        setFormState({ name: '', email: '', subject: '', message: '' });
-      }
-    } finally {
-      setLoading(false);
+    if (res.ok) {
+      setFormState({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+      alert("Message sent successfully!");
+    } else {
+      alert(data.error || "Something went wrong");
     }
-  };
+  } catch (error) {
+    alert("Failed to send message");
+  } finally {
+    setLoading(false);
+  }
+};
 
   return (
     <form id="contact-form" onSubmit={onSubmit}>
